@@ -1,0 +1,30 @@
+.header {
+  background-color: lightcoral;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  display: flex;
+  width: 70%;
+  align-items: center;
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  left: 200px;
+}
